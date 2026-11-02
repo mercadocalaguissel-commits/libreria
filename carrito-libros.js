@@ -3,7 +3,7 @@
 // CARRITO DE LIBROS - LIBRERÍA JP
 // =====================================
 
-const WHATSAPP_NUMERO = "59169321870";
+const WHATSAPP_NUMERO = "59169231870";
 const CLAVE_CARRITO = "carritoLibrosJP";
 const LIMITE_UNIDADES = 10;
 
