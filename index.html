@@ -376,6 +376,18 @@
         placeholder="Tu ubicación (zona, barrio o dirección)"
         required>
 
+                <!-- MÉTODO DE PAGO -->
+
+<select name="metodo_pago" required>
+    <option value="" disabled selected>
+        Selecciona tu método de pago
+    </option>
+
+    <option value="Efectivo">Pago en efectivo</option>
+
+    <option value="QR">Pago mediante QR</option>
+</select>
+
     <input
         type="text"
         name="Nombre del Producto"
@@ -408,7 +420,7 @@
         type="submit"
         class="btn submit-btn">
 
-        <span>Enviar mensaje</span>
+        <span>Cantidad o consulta...</span>
 
         <i class="fa-solid fa-paper-plane"></i>
 
